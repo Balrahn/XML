@@ -1,0 +1,416 @@
+<ashitacast>
+    <settings> <!--Contains settings specific to this xml, must be set to true/false to override default-->
+        <buffupdate>true</buffupdate> <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+        <statusupdate>true</statuspdate> <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+        <hpupdate>false</hpupdate> <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+        <autoupdate>true</autoupdate> <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+    </settings>
+    <sets>
+        <set name="Idle">
+         <main augment="D537023221443">Solstice</main>
+			<sub>Genbu's Shield</sub>
+			<range>Dunna</range>
+			<head>Azimuth Hood +1</head>
+			<neck>Sanctity Necklace</neck>
+			<lear>Gifted. Earring</lear>
+			<rear>Halasz Earring</rear>
+			<body>Jhakri Robe +2</body>
+			<hands>Bagua Mitaines +1</hands>
+			<lring>Bifrost Ring</lring>
+			<rring>Stikini Ring</rring>
+			<back>Lifestream Cape</back>
+			<waist>Fucho-no-Obi</waist>
+			<legs>Assiduity Pants</legs>
+			<feet>Geomancy Sandals +1</feet>
+        </set>
+        <set name="Idle-LU">
+		<main augment="D537023221443">Solstice</main>
+			<sub>Genbu's Shield</sub>
+			<range>Dunna</range>
+			<head>Azimuth Hood +1</head>
+			<neck>Sanctity Necklace</neck>
+			<lear>Gifted. Earring</lear>
+			<rear>Halasz Earring</rear>
+			<body>Jhakri Robe +2</body>
+			<hands>Geo. Mitaines +2</hands>
+			<rring>Bifrost Ring</rring>
+			<lring>Stikini Ring</lring>
+			<back>Lifestream Cape</back>
+			<waist>Fucho-no-Obi</waist>
+			<legs>Assiduity Pants</legs>
+			<feet>Bagua Sandals +1</feet>
+        </set>
+		<set name="Resting">>
+        <main augment="D537023221443">Solstice</main>
+			<sub>Genbu's Shield</sub>
+			<range>Dunna</range>
+			<head>Azimuth Hood +1</head>
+			<neck>Sanctity Necklace</neck>
+			<lear>Gifted. Earring</lear>
+			<rear>Halasz Earring</rear>
+			<body>Jhakri Robe +2</body>
+			<hands>Bagua Mitaines +1</hands>
+			<lring>Bifrost Ring</lring>
+			<rring>Stikini Ring</rring>
+			<back>Lifestream Cape</back>
+			<waist>Fucho-no-Obi</waist>
+			<legs>Assiduity Pants</legs>
+			<feet>Serpentes Sabots</feet>
+        </set>
+        <set name="Nuke">
+         <main augment="D15496489679620">Solstice</main>
+			<sub>Genbu's Shield</sub>
+			<range>Dunna</range>
+			<head>Jhakri Coronal +1</head>
+			<neck>Deviant Necklace</neck>
+			<lear>Halasz Earring</lear>
+			<rear>Strophadic Earring</rear>
+			<body>Jhakri Robe +2</body>
+			<hands>Jhakri Cuffs +1</hands>
+			<lring></lring>
+			<rring></rring>
+			<back augment="S8072217078016418565">Nantosuelta's Cape</back>
+			<waist>Refoccilation Stone</waist>
+			<legs>Jhakri Slops +1</legs>
+			<feet>Bokwus Pigaches +1</feet>
+        </set>
+        <set name="Impact">
+			<main augment="D15496489679620">Solstice</main>
+			<sub>Genbu's Shield</sub>
+			<range>Dunna</range>
+			<head>Jhakri Coronal +1</head>
+			<neck>Deviant Necklace</neck>
+			<lear>Halasz Earring</lear>
+			<rear>Strophadic Earring</rear>
+			<body>Twilight Cloak</body>
+			<hands>Jhakri Cuffs +1</hands>
+			<lring></lring>
+			<rring></rring>
+			<back augment="S8072217078016418565">Nantosuelta's Cape</back>
+			<waist>Refoccilation Stone</waist>
+			<legs>Jhakri Slops +1</legs>
+			<feet>Bokwus Pigaches +1</feet>
+        </set>
+        <set name="Enfeeb-ACC">
+         <main augment="D15496489679620">Solstice</main>
+			<sub>Genbu's Shield</sub>
+			<range>Dunna</range>
+			<head>Jhakri Coronal +1</head>
+			<neck>Incanter's Torque</neck>
+			<lear>Lifestorm Earring</lear>
+			<rear>Psystorm Earring</rear>
+			<body>Jhakri Robe +2</body>
+			<hands>Azimuth Gloves +1</hands>
+			<lring>Stikini Ring</lring>
+			<rring>Balrahn's Ring</rring>
+			<back augment="S8072217078016418565">Nantosuelta's Cape</back>
+			<waist>Rumination Sash</waist>
+			<legs>Jhakri Slops +1</legs>
+			<feet>Bagua Sandals +1</feet>
+        </set>
+        <set name="Enfeeb-MND">
+         <main augment="D15496489679620">Solstice</main>
+			<sub>Genbu's Shield</sub>
+			<range>Dunna</range>
+			<head>Jhakri Coronal +1</head>
+			<neck>Incanter's Torque</neck>
+			<lear>Lifestorm Earring</lear>
+			<rear>Psystorm Earring</rear>
+			<body>Jhakri Robe +2</body>
+			<hands>Azimuth Gloves +1</hands>
+			<lring>Stikini Ring</lring>
+			<rring>Balrahn's Ring</rring>
+			<back augment="S8072217078016418565">Nantosuelta's Cape</back>
+			<waist>Rumination Sash</waist>
+			<legs>Jhakri Slops +1</legs>
+			<feet>Bagua Sandals +1</feet>
+        </set>
+        <set name="Stoneskin">
+         <head>Amalric Coif +1</head>
+         <body>Amalric Doublet +1</body>
+         <hands>Amalric Gages +1</hands>
+         <legs>Amalric Slops +1</legs>
+         <feet>Amalric Nails +1</feet>
+         <neck>Nodens Gorget</neck>
+         <waist>Refoccilation Stone</waist>
+         <ear1>Loquac. Earring</ear1>
+         <ear2>Magnetic Earring</ear2>
+         <ring1>Stikini Ring +1</ring1>
+         <ring2>Strendu Ring</ring2>
+         <back>Swith Cape</back>
+        </set>
+        <set name="Dark">
+         <main augment="D15496489679620">Solstice</main>
+			<sub>Genbu's Shield</sub>
+			<range>Dunna</range>
+			<head>Jhakri Coronal +1</head>
+			<neck>Incanter's Torque</neck>
+			<lear>Lifestorm Earring</lear>
+			<rear>Psystorm Earring</rear>
+			<body>Geomancy Tunic +1</body>
+			<hands>Jhakri Cuffs +1</hands>
+			<lring>Stikini Ring</lring>
+			<rring>Balrahn's Ring</rring>
+			<back augment="S8072217078016418565">Nantosuelta's Cape</back>
+			<waist>Rumination Sash</waist>
+			<legs>Azimuth Tights +1</legs>
+			<feet>Jhakri Pigaches +1</feet>
+        </set>
+        <set name="Enhancing">
+         <body>Anhur Robe</body>
+         <lear>Loquac. Earring</lear>
+         <sub>Ammurapi Shield</sub>
+        </set>
+        <set name="Cure">
+         <main>Vadose Rod</main>
+			<sub>Genbu's Shield</sub>
+			<ammo>Ombre Tathlum</ammo>
+			<head>Gende. Caubeen</head>
+			<neck>Colossus's Torque</neck>
+			<lear>Lifestorm Earring</lear>
+			<rear>Magnetic Earring</rear>
+			<body>Heka's Kalasiris</body>
+			<hands>Bokwus Gloves</hands>
+			<lring>Tamas Ring</lring>
+			<rring>Prolix Ring</rring>
+			<back>Tempered Cape</back>
+			<waist>Pythia Sash +1</waist>
+			<legs>Bokwus Slops</legs>
+			<feet>Argute Loafers +2</feet>
+        </set>
+        <set name="Haste"> <!-- Maximum Recast Reduction -->
+         <head>Amalric Coif +1</head>
+         <body>Shango Robe</body>
+         <hands>Wicce Gloves +1</hands>
+         <legs>Orvail Pants +1</legs>
+         <feet>Amalric Nails +1</feet>
+         <neck>Voltsurge Torque</neck>
+         <waist>Channeler's Stone</waist>
+         <ear1>Loquac. Earring</ear1>
+         <ear2>Enchntr. Earring +1</ear2>
+         <ring1>Fenrir Ring +1</ring1>
+         <ring2>Prolix Ring</ring2>
+         <back>Swith Cape</back>
+        </set>
+        <set name="Precast">
+		 <range>Dunna</range>
+         <head>Welkin Crown</head>
+         <body></body>
+         <hands></hands>
+         <legs>Geomancy Pants +1</legs>
+         <feet></feet>
+         <neck></neck>
+         <waist>Rumination Sash</waist>
+         <ear1></ear1>
+         <ear2></ear2>
+         <ring1></ring1>
+         <ring2></ring2>
+         <back>Lifestream Cape</back>
+        </set>
+        <set name="Indi">
+         <range>Dunna</range>
+			<main augment="D537023221443">Solstice</main>
+			<sub>Genbu's Shield</sub>
+			<head>Azimuth Hood +1</head>
+			<neck>Incanter's Torque</neck>
+			<body>Bagua Tunic +1</body>
+			<hands>Geo. Mitaines +2</hands>
+			<back>Lifestream Cape</back>
+			<rring>Stikini Ring</rring>
+			<waist></waist>
+			<legs>Bagua Pants +1</legs>
+			<feet>Azimuth Gaithers +1</feet>
+        </set>
+        <set name="Geo">
+         <range>Dunna</range>
+			<main augment="D537023221443">Solstice</main>
+			<sub>Genbu's Shield</sub>
+			<head>Azimuth Hood +1</head>
+			<neck>Incanter's Torque</neck>
+			<body>Bagua Tunic +1</body>
+			<hands>Geo. Mitaines +2</hands>
+			<back>Lifestream Cape</back>
+			<rring>Stikini Ring</rring>
+			<waist></waist>
+			<legs>Bagua Pants +1</legs>
+			<feet>Azimuth Gaithers +1</feet>
+        </set>
+        <set name="MDMG">
+         <main augment="D5171200987928">Solstice</main>
+         <sub>Ammurapi Shield</sub>
+         <range augment="D2972269941508">Dunna</range>
+         <head>Mallquis Chapeau +1</head>
+         <body>Mallquis Saio +1</body>
+         <hands>Mallquis Cuffs +1</hands>
+         <legs>Amalric Slops +1</legs>
+         <feet>Mallquis Clogs +1</feet>
+         <neck>Mizu. Kubikazari</neck>
+         <waist>Refoccilation Stone</waist>
+         <ear1>Barkaro. Earring</ear1>
+         <ear2>Friomisi Earring</ear2>
+         <ring1>Shiva Ring +1</ring1>
+         <ring2>Mujin Band</ring2>
+         <back augment="S255541914018565">Nantosuelta's Cape</back>
+        </set>
+        <set name="clothcraft">
+            <main>Edgeless Knife</main>
+            <sub>Plaiter's Scutum</sub>
+            <ammo>Staunch Tathlum</ammo>
+            <head>Magnifying Specs.</head>
+            <body>Weaver's Smock</body>
+            <hands augment="S596470534171944128068">Merlinic Dastanas</hands>
+            <legs>Carmine Cuisses +1</legs>
+            <feet>Aya. Gambieras +1</feet>
+            <neck>Weaver's Torque</neck>
+            <waist>Flume Belt +1</waist>
+            <ear1>Genmei Earring</ear1>
+            <ear2>Etiolation Earring</ear2>
+            <ring1>Orvail Ring</ring1>
+            <ring2>Artificer's Ring</ring2>
+            <back>Moonlight Cape</back>
+        </set>
+    </sets>
+   
+   <variables>
+     <var name="Set">DT</var>
+   </variables>
+     
+   <inputcommands>
+     <cmd input="/changeset ">
+            <setvar name="Set" value="%arg1" />
+            <addtochat color="159">Idle set in use: $Set</addtochat>
+        </cmd>
+   </inputcommands>
+ 
+    <idlegear>
+        <if p_status="resting">
+         <equip set="Resting" />
+        </if>
+        <if pet_active="False"><equip set="Idle" /></if>
+        <if pet_active="True"><equip set="Idle-LU" /></if>
+        <if eq_rring="Trizek Ring">
+        <equip lock="true">
+         <rring>Trizek Ring</rring>              
+        </equip>
+      </if>
+      <if eq_rring="Capacity Ring">
+         <equip lock="true">
+             <rring>Capacity Ring</rring>              
+         </equip>
+      </if>
+      <if eq_rring="Dim. Ring (Holla)">
+         <equip lock="true">
+             <rring>Dim. Ring (Holla)</rring>          
+         </equip>
+      </if>
+      <if eq_rring="Dim. Ring (Mea)">
+         <equip lock="true">
+             <rring>Dim. Ring (Mea)</rring>        
+         </equip>
+      </if>
+      <if eq_rring="Facility Ring">
+            <equip lock="true">
+                <rring>Facility Ring</rring>              
+            </equip>
+      </if>
+      <if eq_rring="Warp Ring">
+          <equip lock="true">
+             <rring>Warp Ring</rring>              
+          </equip>
+      </if>
+    </idlegear>
+ 
+    <premagic> 
+        <equip set="Precast" />
+        <if ad_name="Geo-*">
+            <equip><range>Dunna</range></equip>
+        </if>
+        <elseif ad_name="Impact">
+            <equip><body>Twilight Cloak</body></equip>
+        </elseif>
+    </premagic>
+ 
+ 
+    <midmagic>
+        <if ad_name="Geo-*"><equip set="Geo" /></if>
+        <elseif ad_name="Indi*"><equip set="Indi" /></elseif>
+        <elseif ad_name="Drain*|Aspir*">
+         <equip>
+         <head>Bagua Galero +1</head>
+         </equip>
+        </elseif>
+        <elseif ad_name="*helix">
+         <equip set="MDMG" />
+        </elseif>
+        <elseif ad_name="Stoneskin">
+            <equip set="Stoneskin" />
+        </elseif>
+        <elseif ad_name="Cure*|Curaga*">
+            <equip set="Cure" />
+            <if mode="OR" e_weatherelement="Light" e_dayelement="Light">
+                <equip>
+                    <waist>Hachirin-no-Obi</waist>
+                </equip>
+            </if>
+            <if buffactive="364"><equip><head>Svnt. Bonnet +2</head></equip></if>
+        </elseif>
+        <elseif ad_skill="ElementalMagic">
+            <if ad_name="Impact"><equip set="Impact" /></if>
+            <else>
+                <equip when="$GearTime" set="Nuke" />
+                <if advanced="%ad_element=%e_dayelement">
+                    <if ad_element="Light|Fire|Dark|Water|Thunder|Earth|Wind|Ice">
+                        <equip>
+                            <waist>Hachirin-no-Obi</waist>
+                        </equip>
+                    </if>
+                    <equip>
+                        <!--<rring>Zodiac Ring</rring>-->
+                        <back>Twilight Cape</back>
+                    </equip>
+                </if>
+                <elseif advanced="%ad_element=%e_weatherelement">
+                    <if ad_element="Light|Fire|Dark|Water|Thunder|Earth|Wind|Ice">
+                        <equip when="midcast">
+                            <waist>Hachirin-no-Obi</waist>
+                        </equip>
+                    </if>
+                    <equip>
+                        <back>Twilight Cape</back>
+                    </equip>
+                </elseif>
+            </else>
+        </elseif>
+        <elseif ad_skill="EnfeeblingMagic">
+            <if ad_name="Slow|Paralyze"><equip set="Enfeeb-MND" /></if>
+            <else><equip set="Enfeeb-ACC" /></else>    
+        </elseif>
+        <elseif ad_skill="EnhancingMagic">
+            <equip set="Haste" />
+            <if ad_name="Phalanx|Refresh"><equip set="Enhancing" /></if>
+        </elseif>
+    </midmagic>
+    <jobability>
+     <if ad_name="Bolster">
+        <equip>
+         <body>Bagua Tunic +1</body>
+        </equip>
+     </if>
+     <elseif ad_name="Radial Arcana">
+         <gearlock delay="4" />
+        <equip>
+         <feet>Bagua Sandals +1</feet>
+        </equip>
+     </elseif>
+     <elseif ad_name="Life Cycle">
+        <equip>
+         <body>Geomancy Tunic +1</body>
+        </equip>
+     </elseif>
+     <elseif ad_name="Full Circle">
+       <equip>
+         <head>Azimuth Hood +1</head>
+       </equip>
+      </elseif>
+    </jobability>
+</ashitacast>
